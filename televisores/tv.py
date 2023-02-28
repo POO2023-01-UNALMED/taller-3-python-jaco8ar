@@ -18,7 +18,8 @@ class TV:
         return self._precio
     def getVolumen(self):
         return self._volumen
-    def getNumTV(self):
+    @staticmethod
+    def getNumTV():
         return TV.numTV
     def getEstado(self):
         return self._estado
