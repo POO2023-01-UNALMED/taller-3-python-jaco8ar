@@ -32,7 +32,8 @@ class TV:
         self._control = control
     def setPrecio(self, precio):
         self._precio = precio
-    def setNumTV(self, numTV):
+    @staticmethod
+    def setNumTV(numTV):
         TV.numTV = numTV
     
 
